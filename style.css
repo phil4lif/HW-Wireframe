@@ -5,8 +5,13 @@ body {
     font-size: 18px;
 }
 
+header {
+    font-size:54px;
+}
+
 header, nav, section, aside, footer {
     background: #ebebeb;
+    text-align: center;
 }
 
 article {
@@ -27,4 +32,3 @@ aside {
     width: 400px;
     float: right;
 }
-
