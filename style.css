@@ -5,13 +5,13 @@ body {
     font-size: 18px;
 }
 
-header {
-    font-size:54px;
-}
-
 header, nav, section, aside, footer {
     background: #ebebeb;
     text-align: center;
+}
+
+section, aside {
+    height: 300px;
 }
 
 article {
@@ -28,7 +28,17 @@ section {
     width: 495px;
 }
 
+article {
+    width: 450px;
+    margin: auto;
+}
 aside {
     width: 400px;
     float: right;
+    margin: auto;
+}
+
+.inline, p {
+    width: 350px;
+    margin: auto;
 }
