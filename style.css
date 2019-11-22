@@ -10,6 +10,11 @@ header, nav, section, aside, footer {
     text-align: center;
 }
 
+header, nav, footer {
+    Height: 50px;
+    padding: 5px;
+}
+
 section, aside {
     height: 300px;
 }
@@ -26,6 +31,8 @@ h1, p {
 
 section {
     width: 495px;
+    padding: 5px;
+    
 }
 
 article {
@@ -34,11 +41,11 @@ article {
 }
 aside {
     width: 400px;
+    padding: 5px;
     float: right;
-    margin: auto;
 }
-
 .inline, p {
     width: 350px;
     margin: auto;
+    height: 40px;
 }
