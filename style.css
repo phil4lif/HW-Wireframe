@@ -8,6 +8,7 @@ body {
 header, nav, section, aside, footer {
     background: #ebebeb;
     text-align: center;
+    color: #777;
 }
 
 header, nav, footer {
@@ -17,35 +18,47 @@ header, nav, footer {
 
 section, aside {
     height: 300px;
+    color: #777;
 }
 
 article {
     color: #ebebeb;
     background: #777;
+    padding: 10px;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+    padding: 10px;
 }
 
 section {
-    width: 495px;
-    padding: 5px;
-    
-}
+    width: 50%;
+    padding: 10px;
+    }
 
 article {
-    width: 450px;
+    width: auto;
     margin: auto;
 }
 aside {
-    width: 400px;
-    padding: 5px;
+    width: 40%;
+    padding: 10px;
     float: right;
-}
+    }
+
 .inline, p {
     width: 350px;
     margin: auto;
     height: 40px;
+}
+
+#allContent {
+    width: 80%;
+    margin: auto;
+}
+
+#mainBox {
+    margin: 20px;
 }
