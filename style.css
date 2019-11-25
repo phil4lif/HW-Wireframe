@@ -17,7 +17,7 @@ header, nav, footer {
 }
 
 section, aside {
-    height: 300px;
+    height: 350px;
     color: #777;
 }
 
@@ -49,8 +49,8 @@ aside {
     }
 
 .inline, p {
-    width: 350px;
-    margin: auto;
+    width: auto;
+    margin: 10px;
     height: 40px;
 }
 
